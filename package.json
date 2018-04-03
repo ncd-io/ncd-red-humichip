@@ -18,6 +18,11 @@
     "temperature",
     "sensor"
   ],
+  "node-red": {
+        "nodes": {
+            "ncd-humichip": "ncd-humichip.js"
+        }
+    },
   "author": "Trey Felton",
   "license": "MIT",
   "bugs": {
