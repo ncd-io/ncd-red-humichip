@@ -96,7 +96,7 @@ module.exports = function(RED){
 							if(typeof sensor_pool[node.id] != 'undefined'){
 								get_status(true);
 							}
-						}, node.interval);
+						}, sensor_pool[node.id].node.interval);
 					}else{
 						sensor_pool[node.id].polling = false;
 					}
