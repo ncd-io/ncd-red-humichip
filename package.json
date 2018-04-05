@@ -1,6 +1,6 @@
 {
   "name": "ncd-red-humichip",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "description": "Node module for using the Samyoung HumiChip",
   "main": "index.js",
   "scripts": {
