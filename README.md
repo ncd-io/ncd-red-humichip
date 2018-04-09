@@ -1,7 +1,5 @@
 # HumiChip (HCPA-5V-U3)
 
-### Overview
-
 This library provides a class for the HumiChip, it relies on the ncd-red-comm library for communication, and includes a node-red node for the HCPA-5V-U3. The HumiChip is a capacitive polymer sensor, these chips are individually calibrated and tested, and provide high accuracy temperature and humidity readings at a low cost. [Ncd.io](https://ncd.io) manufactures a mini-module using this chip, allowing you to get started with no need for soldering. You can buy it [here](https://store.ncd.io/product/hcpa-5v-u3-humidity-and-temperature-sensor-%C2%B12rh-%C2%B10-3c-i2c-mini-module/).
 
 [![HumiChip](./HCPA-5V-U3_I2CS_A_2-150x150.png)](https://store.ncd.io/product/hcpa-5v-u3-humidity-and-temperature-sensor-%C2%B12rh-%C2%B10-3c-i2c-mini-module/)
