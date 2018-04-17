@@ -1,6 +1,6 @@
 {
   "name": "ncd-red-humichip",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Node module for using the Samyoung HumiChip",
   "main": "index.js",
   "scripts": {
@@ -26,7 +26,7 @@
   "author": "Trey Felton",
   "license": "MIT",
   "dependencies": {
-    "ncd-red-comm": "^1.2.0"
+    "ncd-red-comm": "^1.4.0"
   },
   "bugs": {
     "url": "https://github.com/ncd-io/ncd-red-humichip/issues"
