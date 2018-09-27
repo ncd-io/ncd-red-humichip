@@ -22,7 +22,7 @@ module.exports = function(RED){
 			polling: false,
 			timeout: 0,
 			node: this
-		}
+		};
 
 		var node = this;
 		var status = "{}";
@@ -123,5 +123,5 @@ module.exports = function(RED){
 		start_poll();
 		device_status(node);
 	}
-	RED.nodes.registerType("ncd-humichip", NcdI2cDeviceNode)
-}
+	RED.nodes.registerType("ncd-humichip", NcdI2cDeviceNode);
+};

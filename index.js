@@ -23,16 +23,16 @@ module.exports = class HumiChip{
 			}).catch((e) => {
 				sensor.initialized = false;
 				reject(e);
-			})
+			});
 		});
 	}
 	parseStatus(data){
 		var readings = {
 			humidity: (((data[0] & 0x3F) << 8) + data[1]) / 16384 * 100,
 	  		temperature: (((data[2] << 8) + (data[3] & 0xFC)) / 4) / 16384 * 165 - 40
-		}
+		};
 		if(this.config.scale == 'f') readings.temperature = (readings.temperature * 1.8) + 32;
 		if(this.config.scale == 'k') readings.temperature += 273.15;
 		return readings;
 	}
-}
+};
