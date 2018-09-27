@@ -1,6 +1,6 @@
 {
   "name": "ncd-red-humichip",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Node module for using the Samyoung HumiChip",
   "main": "index.js",
   "scripts": {
@@ -14,9 +14,11 @@
     "humichip",
     "ncd",
     "i2c",
-    "humitidy",
+    "humidity",
     "temperature",
-    "sensor"
+    "sensor",
+	"iot-training-controller",
+	"node-red"
   ],
   "node-red": {
     "nodes": {
